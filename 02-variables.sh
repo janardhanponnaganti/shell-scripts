@@ -1,6 +1,6 @@
 #!/bin/blash
-PERSON1=RAM
-PERSON2=KRISH
+PERSON1=Raju
+PERSON2=krishna
 
 
 echo "$PERSON1: how are $PERSON2"
