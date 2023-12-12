@@ -1,6 +1,10 @@
 #!/bin/blash
-echo "ram: how are krish"
-echo "krish: im good ram"
-echo "ram: happy new year krish"
-echo "krish:thank you ram"
+PERSON1=RAM
+PERSON2=KRISH
+
+
+echo "$PERSON1: how are $PERSON2"
+echo "$PERSON2: im good $PERSON1"
+echo "$PERSON1: happy new year $PERS0N2"
+echo "$PERSON2:thank you $ram"
 echo " sampamth"
