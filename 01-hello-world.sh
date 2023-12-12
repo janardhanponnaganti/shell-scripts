@@ -4,3 +4,4 @@
 
 echo"shell scripts"
 plese add
+echo "hello im checking"
