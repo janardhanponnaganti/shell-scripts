@@ -35,7 +35,7 @@ fi # fi means reverse of if, indicating condition end
 for package in $@
 do
     yum install mysql $package &>> $LOGFILE # check install or not
-    if [ $? -ne 0] #if not installed
+    if [ $? -ne 0 ] #if not installed
     then 
         yum install $package -y &>> LOGFILE # install the package
         VALIDATE $? "installing of $package" # validate
