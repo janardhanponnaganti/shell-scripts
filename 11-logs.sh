@@ -8,6 +8,7 @@ N="\e[0m"
 
 LOGFILE="/tmp/$0 - $TIMESTAMP.log"
 
+echo "script started executing at $TIMESTAMP" &>> $LOGFILE
 VALIDATE(){
     if [ $1 -ne 0 ]
     then 
@@ -26,7 +27,7 @@ else
     echo "you are root user"
 fi # fi means reverse of if, indicating condition end
 
-yum install mysqll -y &>> $LOGFILE
+yum install mysql -y &>> $LOGFILE
 
 VALIDATE $? "installing MYsql"
 
