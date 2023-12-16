@@ -2,7 +2,7 @@
 ID=$(id -u)
 TIMESTAMP=$(date +%F-%H-%M-%S)
 
-LOGFILE="/tem/$0-$TIMESTAMP.log"
+LOGFILE="/tem/$0 - $TIMESTAMP.log"
 
 VALIDATE(){
     if [ $1 -ne 0 ]
